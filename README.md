@@ -29,7 +29,7 @@ Users should be able to:
 - Flexbox
 - Responsive Application
 - Javascript Dom
-- Javascript API with Fetch
+- Javascript API with Fetch API
 
 ## Author
 
