@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+/* font-family: 'Manrope', sans-serif; */
+
+:root {
+    --colorOne: hsl(193, 38%, 86%);
+    --colorTwo: hsl(150, 100%, 66%);
+    --colorThird: hsl(217, 19%, 38%);
+    --colorForth: hsl(217, 19%, 24%);
+    --colorFifth: hsl(218, 23%, 16%);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--colorFifth);
+}
+
+#box {
+    background-color: var(--colorForth);
+    border: none;
+    border-radius: 16px;
+    padding: 8px;
+    width: 90%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.adviceNumber {
+    color: var(--colorTwo);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+h3 {
+    font-size: 28px;
+    color: var(--colorOne);
+    font-weight: 800;
+    text-align: center;
+    padding-inline: 10px;
+}
+
+.divider {
+    width: 85.2%;
+}
+
+#btnAdvice {
+    background-color: var(--colorTwo);
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 35px;
+    transition: .4s;
+}
+#btnAdvice:hover {
+    box-shadow: 0px 0px 30px var(--colorTwo);
+}
+
+.iconBtn {
+    width: 100%;
+}
